@@ -1,5 +1,7 @@
+//exercices 1//
+
 let Jonnorich = prompt("Quel est votre nom ?");
-const age23ans = prompt("Quel est votre âge ?");
+const ageJonnorich = prompt("Quel est votre âge ?");
 console.log("Bienvenue Jonnorich ! Vous avez 23 ans.");
 
 
@@ -8,7 +10,7 @@ function cal_Cout_Total(a, b) {
     return a*b;
 }
 const a = 100;
-const b = 20;
+const b = 50;
 const resultat = cal_Cout_Total(100, 50);
 console.log("Le coût total des inscriptions est de :", 5000);
   
@@ -51,6 +53,22 @@ let nouveau_Inscrit = prompt("Entrez le nom du nouvel inscrit :");
 participants.push("King");
 alert("Bienvenue " + nouveau_Inscrit + " !");
 console.log("Bienvenue " + nouveau_Inscrit + " !");
+
+
+
+//exercices 2//
+
+
+function calculateSum(num1, num2) {
+    const sum = num1 + num2;
+    return sum;
+  }
+  //exemple de valeurs de num1 et num2//
+  const num1 = 5;
+  const num2 = 10;
+  const result = calculateSum(num1, num2);
+  console.log("La somme de", num1, "et", num2, "est :", result);
+
 
 
 
